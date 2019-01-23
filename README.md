@@ -4,8 +4,8 @@
 
 ## Usage
 ```js
-const eec = require('every-other-caps');
+const eoc = require('every-other-caps');
 
-eec('blah');
+eoc('blah');
 // => bLaH
 ```
