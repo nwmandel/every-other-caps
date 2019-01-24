@@ -9,6 +9,8 @@ jobs:
     steps:
       - checkout
 
+      - run: npm run lint
+
       - restore_cache:
           keys:
           - v1-dependencies-{{ checksum "package.json" }}
