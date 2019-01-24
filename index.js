@@ -1,21 +1,15 @@
 'use-strict';
 module.exports = inputs => {
   if (typeof inputs === 'string') {
+
     const lowercase = inputs.toLocaleLowerCase();
     let result = '';
 
-    // case for evens
-    if (lowercase.length % 2 == 0) {
-      result = cap(lowercase);
-
-    // case for odds
-    } else {
-      result = cap(lowercase);
-    }
+    result = cap(lowercase);
 
     return result;
   }
-  
+
   throw new TypeError('Input must be string');
 };
 

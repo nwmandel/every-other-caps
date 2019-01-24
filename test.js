@@ -75,4 +75,10 @@ describe('tests for module', () => {
     });
   });
 
+  describe('string should start with lowercase then every other character should be capital', () => {
+    it('should be correct', () => {
+      expect(eoc('blah blah blahh')).to.equal('bLaH bLaH bLaHh');
+    });
+  });
+
 });
