@@ -3,11 +3,8 @@ module.exports = inputs => {
   if (typeof inputs === 'string') {
 
     const lowercase = inputs.toLocaleLowerCase();
-    let result = '';
 
-    result = cap(lowercase);
-
-    return result;
+    return cap(lowercase);;
   }
 
   throw new TypeError('Input must be string');
