@@ -1,10 +1,11 @@
 'use-strict';
+
 module.exports = inputs => {
   if (typeof inputs === 'string') {
 
     const lowercase = inputs.toLocaleLowerCase();
 
-    return cap(lowercase);;
+    return cap(lowercase);
   }
 
   throw new TypeError('Input must be string');
