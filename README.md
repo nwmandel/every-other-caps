@@ -1,6 +1,6 @@
 # every-other-caps
 
-[![CircleCI](https://circleci.com/gh/nwmandel/every-other-caps/tree/master.svg?style=svg2)](https://circleci.com/gh/nwmandel/every-other-caps/tree/master)
+[![CircleCI](https://circleci.com/gh/nwmandel/every-other-caps.svg?style=svg)](https://circleci.com/gh/nwmandel/every-other-caps)
 
 > Return string with every other character capitalized
 
