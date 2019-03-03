@@ -1,6 +1,6 @@
 {
   "name": "every-other-caps",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "changes string to have every other character in caps",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,7 @@
   ],
   "author": "nick mandel",
   "license": "MIT",
+  "repository": "nwmandel/every-other-caps",
   "devDependencies": {
     "eslint": "^5.12.1",
     "mocha": "^5.2.0"
