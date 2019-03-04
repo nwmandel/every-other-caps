@@ -4,7 +4,7 @@
 
 > Return string with every other character capitalized
 
-For creating saracstic strings.
+For creating sarcastic strings.
 
 ## Usage
 ```js
