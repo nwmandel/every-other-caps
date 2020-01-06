@@ -1,6 +1,6 @@
 {
   "name": "every-other-caps",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "changes string to have every other character in caps",
   "main": "index.js",
   "scripts": {
